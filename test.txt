@@ -1,0 +1,83 @@
+question 1.Iterable
+		COllection
+		1. List- ArrayList---->LinkedList
+		2.Queue- 
+		3.Set- HashSet--->LinkedHashset
+		4.sortedset
+		the main interfaces are 
+		1.List
+		2.sortedset
+		3.set
+		4.queue
+		
+		differences
+		List-An ordered collection (also known as a sequence).
+		The user of this interface has precise control over where in the list each element is inserted. 
+		The user can access elements by their integer index (position in the list), and search for elements in the list.
+		
+		Set-A collection that contains no duplicate elements. 
+		More formally, sets contain no pair of elements e1 and e2 such that e1.equals(e2), and at most one null element. 
+		As implied by its name, this interface models the mathematical set abstraction.
+		
+		queue-In a queue, the first-in-first-out rule is implemented whereas, in a priority queue, 
+		the values are removed on the basis of priority. 
+		The element with the highest priority is removed first.
+		
+		sortedset-TreeSet is a SortedSet, hence it always keeps the elements in the order defined by their Comparator or natural order if there is no Comparator defined, 
+		while PriorityQueue will always make sure that head contains the lowest or highest value depending upon the order imposed by Comparator or Comparable.
+		
+question 2.		
+various implemenation of the map interface
+ there are 3 types of map 
+    1.HashMap
+	2.LinkedHashMap
+	3.TreeMap
+	4.SOrtedMap
+	use  case differences
+	You can implement maps in Java from two interfaces: Map and SortedMap. 
+	The SortedMap interface extends the Map interface.
+	There are three classes to implement maps. 
+	These three classes are HashMap, LinkedHashMap, and TreeMap
+	
+question 3.	
+	  HashSet                                
+*The Hash set is executed with the help of a HashTable.
+*It does not authorise a heterogeneous object.
+*To compare two objects, we use the equals method.
+*It perimts a null objects
+
+
+      TreeSet
+*The tree set is executed with the help of a tree structure.
+*It authorises a heterogeneous object.
+*It does not permit the null object.
+*To compare two objects, we use the compare method.
+
+question 17.
+    uses of mention below
+	1.Maven-
+	Maven is chiefly used for Java-based projects, helping to download dependencies, which refers to the libraries or JAR files.
+	The tool helps get the right JAR files for each project as there may be different versions of separate packages.
+	2.Gradle-
+	Gradle is a build automation tool known for its flexibility to build software.
+	A build automation tool is used to automate the creation of applications.
+	The building process includes compiling, linking, and packaging the code.
+	The process becomes more consistent with the help of build automation tools	
+	3.Tomcat-
+	Apache Tomcat server: Apache Tomcat is a web container. 
+	It allows the users to run Servlet and JAVA Server Pages that are based on the web-applications. 
+	It can be used as the HTTP server.
+	The performance of the Tomcat server is not as good as the designated web server
+	4.Quarkus-
+	Quarkus optimizes Java and makes it efficient for containers, cloud, and serverless environments with memory consump- tion optimization and a fast first response time.
+	Quarkus: Features a low learning curve for Java developers. Makes Java comparable to natively compiled, high-level programming languages.
+	to perform validation
+	5.SonarQube-
+	SonarQube (formerly Sonar) is an open-source platform developed by SonarSource for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs and code smells on 29 programming languages.
+	
+	question 9.
+	springcore is the core of the framework that power features such as inversion of control and dependency injection 
+	Beans(Spring - beans) provides beanFactory which is a sophisticated implementation of the fatory pattern 
+	
+
+	
